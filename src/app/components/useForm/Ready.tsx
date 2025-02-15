@@ -40,6 +40,9 @@ const FormStep3: React.FC<FormStep3Props> = ({
     window.location.reload();
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  // const ticketElement = ...; // Keep this line if you plan to use it later
+
   return (
     <div className="max-w-xl mx-auto space-y-4 sm:space-y-8 md:px-4 sm:px-0">
       <div className="text-center">
